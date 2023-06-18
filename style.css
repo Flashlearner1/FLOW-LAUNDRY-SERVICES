@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bgd {
+    background-image: url(473b127fc48e3445481e01f314b4fad9.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a:hover{
+    color: red;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+.logo img {
+    width: 65px;
+    border-radius: 40px;
+}
+.Search {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background-color: red;
+    transition: .4s ease-in-out;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+}
+.Write-box{
+    margin: 0px 500px 0px 0px;
+}
+.Write-box h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 50px 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 7vmin;
+}
+.Write-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 4vmin;
+    color: white;
+    margin: 0px 50px 0px 0px;
+}
+.Write-box button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    font-family: sans-serif;
+    color: white;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+.Write-box button:hover{
+    background-color: red;
+    transition: .4s ease-in-out;
+}
+.First {
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.Second{
+    height: 400px;
+    background-color: mediumseagreen;
+}
+.Second-box h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 150px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 0px 50px 0px 50px;
+}
+.wash{
+    padding-right: 40px;
+    color: whitesmoke;
+}
+.Passer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 0px 90px 40px 90px;
+    color: whitesmoke;
+}
+.collect h4{
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.wash h4{
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Deliver h4{
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Third-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Real-box h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 130px;
+    padding-right: 70px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.Fourth{
+    height: 350px;
+    background-color: white;
+}
+.sub-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.years{
+    padding: 0px 0px 0px 0px;
+}
+.Express{
+    padding-left: 20px;
+}
+.percent{
+    padding: 0px 100px 0px 400px;
+}
+
+.footer-body{
+    height: 200px;
+}
+.footer-body{
+    background-color: black;
+    background-size: auto;
+}
+ .Rack{
+    display: flex;
+    justify-content: space-between;
+ }
+.Company{
+    color: whitesmoke;
+    padding-top: 20px;
+}
+.Company span{
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 15;
+}
+.Services {
+    color: whitesmoke;
+    padding-top: 20px;
+    margin-right: 30px;
+    line-height: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.socials a{
+margin-left: 200px;
+color: mediumseagreen;
+font-size: 20;
+text-decoration: none;
+}
+.socials a:hover{
+    color: red;
+    transition: .4s ease-in-out;
+}
+.Copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    color: whitesmoke;
+    list-style: none;
+    text-decoration: none;
+}
